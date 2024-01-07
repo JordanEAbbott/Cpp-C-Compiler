@@ -1,7 +1,7 @@
-#include"Parser.h"
-#include"Generate.h"
-#include<fstream>
-/*
+#include "Parser.h"
+#include "Generate.h"
+#include <fstream>
+
 int compile_exp(Expression e, std::fstream* p_fs) {
 
 	if (e.inner != nullptr) {
@@ -40,4 +40,3 @@ int compile(Program p) {
 
 	return 0;
 }
-*/

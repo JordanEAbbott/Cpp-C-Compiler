@@ -1,8 +1,8 @@
 #include "Parser.h"
-#include<iostream>
-#include<vector>
-#include<string>
-#include<regex>
+#include <iostream>
+#include <vector>
+#include <string>
+#include <regex>
 
 /*
 Clarify declaration rules: Statement MUST be of form "return" <int> ";" | "int" <id> "=" <int> ";" etc.
